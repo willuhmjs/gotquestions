@@ -1,6 +1,6 @@
 {
   "name": "gotquestions",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "description": "gotquestions is a package designed to scrape the gotquestions.org api",
   "main": "src/index.js",
   "keywords": ["gotquestions", "wrapper", "bible"],
