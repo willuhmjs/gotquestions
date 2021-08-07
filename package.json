@@ -1,0 +1,17 @@
+{
+  "name": "gotquestions",
+  "version": "1.0.0",
+  "description": "gotquestions is a package designed to scrape the gotquestions.org api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "William Faircloth",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {}
+}
