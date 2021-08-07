@@ -13,12 +13,12 @@ const gq = require("gotquestions");
   /*
   {
     error: false,
-    articleTitle: "How many prophecies did Jesus fulfill? | GotQuestions.org"
+    articleTitle: "How many prophecies did Jesus fulfill? | GotQuestions.org",
     articleBody: "...",
     url: "..."
   }
   */
-})()
+})();
 ```
 
 ## Installation
@@ -42,7 +42,7 @@ await gq.fetchDataByURL("https://www.gotquestions.org/prophecies-of-Jesus.html")
 /*
 {
   error: false,
-  articleTitle: "How many prophecies did Jesus fulfill? | GotQuestions.org"
+  articleTitle: "How many prophecies did Jesus fulfill? | GotQuestions.org",
   articleBody: "...",
   url: "..."
 }
@@ -55,7 +55,7 @@ await gq.fetchDataByQuery("Jesus", 0);
 /*
 {
   error: false,
-  articleTitle: "How many prophecies did Jesus fulfill? | GotQuestions.org"
+  articleTitle: "How many prophecies did Jesus fulfill? | GotQuestions.org",
   articleBody: "..."
 }
 */
@@ -69,8 +69,8 @@ await gq.search("Jesus")
   error: false,
   queryResults: [
     {
-      title: "How many prophecies did Jesus fulfill?"
-      href: "https://www.gotquestions.org/prophecies-of-Jesus.html"
+      articleTitle: "How many prophecies did Jesus fulfill?",
+      url: "https://www.gotquestions.org/prophecies-of-Jesus.html"
     },
     ...
   ]

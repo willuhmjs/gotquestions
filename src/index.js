@@ -40,8 +40,8 @@ module.exports.search = async (query) => {
     const end = [];
     for (let i = 0; i < tag.length; i++) {
       end.push({
-        title: await tag["" + i].children[0].children[2].children[0].data,
-        href: tag["" + i].children[0].children[2].attribs.href
+        articleTitle: await tag["" + i].children[0].children[2].children[0].data,
+        url: tag["" + i].children[0].children[2].attribs.href
       })
     }
     return {
