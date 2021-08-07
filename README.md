@@ -14,7 +14,8 @@ const gq = require("gotquestions");
   {
     error: false,
     articleTitle: "How many prophecies did Jesus fulfill? | GotQuestions.org"
-    articleBody: "..."
+    articleBody: "...",
+    url: "..."
   }
   */
 })()
@@ -42,7 +43,8 @@ await gq.fetchDataByURL("https://www.gotquestions.org/prophecies-of-Jesus.html")
 {
   error: false,
   articleTitle: "How many prophecies did Jesus fulfill? | GotQuestions.org"
-  articleBody: "..."
+  articleBody: "...",
+  url: "..."
 }
 */
 ```
