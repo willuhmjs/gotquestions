@@ -28,7 +28,7 @@ npm install gotquestions
 ## Documentation
 ### Error Handling
 All errors return the following object
-```json
+```js
 {
   error: true,
   errorStack: "..."
