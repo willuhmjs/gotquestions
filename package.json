@@ -1,6 +1,6 @@
 {
   "name": "gotquestions",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "gotquestions is a package designed to scrape the gotquestions.org api",
   "main": "src/index.js",
   "keywords": [],
@@ -9,5 +9,13 @@
   "dependencies": {
     "cheerio": "^1.0.0-rc.10",
     "node-fetch": "^2.6.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willuhm-js/gotquestions.git"
+  },
+  "bugs": {
+    "url": "https://github.com/willuhm-js/gotquestions/issues"
+  },
+  "homepage": "https://github.com/willuhm-js/gotquestions#readme"
 }
