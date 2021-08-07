@@ -1,4 +1,9 @@
 # gotquestions
+<div>
+  <img src="https://img.shields.io/github/license/willuhm-js/gotquestions?style=for-the-badge"/>
+  <img src="https://img.shields.io/npm/v/gotquestions?style=for-the-badge" />
+</div>
+<br>
 gotquestions is a package designed to scrape the [gotquestions.org](https://www.gotquestions.org) api
 
 ```js
