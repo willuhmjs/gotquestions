@@ -23,7 +23,8 @@ module.exports.fetchDataByUrl = async (url) => {
     return {
       error: false,
       articleTitle,
-      articleBody
+      articleBody,
+      url
     };
   } catch (errorStack) {
     return throwError(errorStack);
