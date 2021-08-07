@@ -16,7 +16,7 @@ const gq = require("gotquestions");
     articleTitle: "How many prophecies did Jesus fulfill? | GotQuestions.org"
     articleBody: "..."
   }
-*/
+  */
 })()
 ```
 
