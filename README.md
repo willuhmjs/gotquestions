@@ -69,7 +69,7 @@ await gq.search("Jesus")
   error: false,
   queryResults: [
     {
-      articleTitle: "How many prophecies did Jesus fulfill? | Gotquestions.org",
+      articleTitle: "How many prophecies did Jesus fulfill? | GotQuestions.org",
       url: "https://www.gotquestions.org/prophecies-of-Jesus.html"
     },
     ...
