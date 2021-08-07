@@ -1,9 +1,9 @@
 {
   "name": "gotquestions",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "gotquestions is a package designed to scrape the gotquestions.org api",
   "main": "src/index.js",
-  "keywords": [],
+  "keywords": ["gotquestions", "wrapper", "bible"],
   "author": "William Faircloth",
   "license": "MIT",
   "dependencies": {

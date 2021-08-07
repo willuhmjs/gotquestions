@@ -2,7 +2,7 @@ const cheerio = require("cheerio");
 const fetch = require("node-fetch");
 
 function throwError(errorStack) {
-  const errorBool = true
+  const errorBool = true;
   return {
     error: errorBool,
     errorStack
