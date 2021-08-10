@@ -56,7 +56,7 @@ module.exports.search = async (query) => {
 module.exports.fetchDataByQuery = async (query, index = 0) => {
   try {
     const { queryResults } = await this.search(query);
-    const searchData = await this.fetchDataByUrl(queryResults[index].url;
+    const searchData = await this.fetchDataByUrl(queryResults[index]).url;
     return searchData;
   } catch (errorStack) {
     return throwError(errorStack);
