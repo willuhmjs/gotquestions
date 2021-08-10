@@ -36,9 +36,9 @@ All errors return the following object
 }
 ```
 
-### gq.fetchDataByURL(url)
+### gq.fetchDataByUrl(url)
 ```js
-await gq.fetchDataByURL("https://www.gotquestions.org/prophecies-of-Jesus.html");
+await gq.fetchDataByUrl("https://www.gotquestions.org/prophecies-of-Jesus.html");
 /*
 {
   error: false,
