@@ -6,7 +6,7 @@
 gotquestions is a package designed to scrape the gotquestions.org api
 
 ```js
-const gq = require("./gotquestions");
+const gq = require("/path/to/gotquestions/src/index.js");
 (async () => {
   await gq.fetchDataByQuery("Jesus");
   /*
